@@ -4,15 +4,17 @@
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  padding-top: 0px;
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
-}
+  top: 100px;
+  }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #000000;
   font-size: 48px;  
   font-family: 'Arial', sans-serif;
   font-weight: bold;
@@ -21,4 +23,50 @@
 .jumbotron p {
   font-size: 20px;
   color: #fff;
+}
+.intro .col-sm-4{
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: #000000;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 0px;
+    border: 0px;
+    font-family: 'Arial', sans-serif;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 0.4);
+    background-color: rgba(231, 231, 231, 0.4);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+     background-color: #0051ff;
 }
