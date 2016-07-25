@@ -4,53 +4,95 @@
 
 <head>
 
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
-<link rel="stylesheet" href="main.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<title>James Hingston</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
 </head>
 
 <body>
-	
-
-    <div class="jumbotron">
-    	<div id="custom-bootstrap-menu" class="navbar navbar navbar-default navbar-fixed-top " role="navigation">
-	    <div class="container-fluid">
-	        <div class="navbar-header">
-	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-	            </button>
-	        </div>
-	        <div class="collapse navbar-collapse navbar-menubuilder">
-	            <ul class="nav navbar-nav navbar-right">
-	                <li><a href="#">Home</a>
-	                </li>
-	                <li><a href="#">Products</a>
-	                </li>
-	                <li><a href="#">About Us</a>
-	                </li>
-	                <li><a href="#">Contact Us</a>
-	                </li>
-	            </ul>
-	        </div>
-	    </div>
-		</div>
-      <div class="container">
-        <h1>Lorem ipsum</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis, diam vel venenatis lacinia, magna eros tristique neque, a mattis arcu ex eu mi.</p>
-        <a href="#">Learn More</a>
-      </div>
-    </div> 
-
-    <div class="intro">
-    	<div class="container">
-    		<div class="row">
-				<div class="col-sm-4"><p>Lorem ipsum dolor sit amet</p></div>
-				<div class="col-sm-4"><p>Lorem ipsum dolor sit amet</p></div>
-				<div class="col-sm-4"><p>Lorem ipsum dolor sit amet</p></div>
-			</div>
-    	</div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--<a class="navbar-brand" href="#myPage">Logo</a>-->
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#etsy">ETSY</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <!--<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li>-->
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<section class="masthead-container">
+		<div class="container masthead-content">
+			<div id="masthead-image"></div>
+  			<!--<div id="masthead-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>-->
+		</div>
+	</section>
 
-  </body>
+	<section id="gallery" class="container text-center">
+		<div class="header">
+			<h3>GALLERY</h3>
+		</div>
+		<div class="description">
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pellentesque lorem. Quisque pharetra nisl in augue finibus hendrerit. Sed in enim purus. Sed molestie, risus quis scelerisque blandit, lacus orci auctor risus, eget lobortis nibh leo id sem. Cras rutrum quis diam eget hendrerit. Sed ut semper justo. Vivamus aliquam ac nulla vitae efficitur.</p>
+		</div>
+		<div class="row">
+			  <div class="col-md-4">
+			  	<div class="card">
+			    <h4 class="card-title">Card title</h4>
+			    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+			  <img src='images/1.png' alt="Card image">
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  </div>
+			</div>
+			 <div class="col-md-4">
+			  	<div class="card">
+			    <h4 class="card-title">Card title</h4>
+			    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+			  <img src='images/1.png' alt="Card image">
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  </div>
+			</div>
+			<div class="col-md-4">
+			  	<div class="card">
+			    <h4 class="card-title">Card title</h4>
+			    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+			  <img src='images/1.png' alt="Card image">
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  </div>
+			</div>
+	</section>
+	<section id="demo"></section>
+
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+</body>
 </html>

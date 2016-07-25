@@ -1,72 +1,88 @@
-
-.jumbotron {
-  background-image:url('images/cover.jpg');
-  height: 500px;
+html,body{height:100%;}
+.nav-tabs li a {
+  color: #777;
+}
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.masthead-container{
+    height: 100%;
+}
+.masthead-content{
+  background-image:url('images/masthead_med.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 0px;
+  height:100%;
+  width: 100%;
+  min-height:100%;
+  color:#efefef;
 }
-
-.jumbotron .container {
-  position: relative;
-  top: 100px;
-  }
-
-.jumbotron h1 {
-  color: #000000;
-  font-size: 48px;  
-  font-family: 'Arial', sans-serif;
-  font-weight: bold;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-}
-.intro .col-sm-4{
+#masthead-image{
+  background: url('images/masthead_text.png') no-repeat 0%;
+  background-size: contain;
+  margin-top:  200px;
+  margin-left: 10%;
   height: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
+  
+}
+#masthead-description{
   color: #fff;
+  font-size: 20px;  
+  font-family: 'Source Sans Pro','Arial', sans-serif;
+  margin-left: 10%;
+  opacity: 0.9;
 }
-#custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: #000000;
+#gallery{
+  font-family: Montserrat, sans-serif;
+  background-color: #2d2d30;
+  width: 100%;
+  opacity: 0.9;
+  color: #d5d5d5 !important;
 }
-#custom-bootstrap-menu.navbar-default {
-    font-size: 14px;
-    background-color: rgba(255, 255, 255, 1);
-    margin-bottom: 0px;
-    border: 0px;
-    font-family: 'Arial', sans-serif;
-
+#gallery .header{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
 }
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(119, 119, 119, 1);
-    background-color: rgba(248, 248, 248, 0);
+#gallery .description p{
+  font-size: 15px;
 }
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(51, 51, 51, 1);
-    background-color: rgba(248, 248, 248, 0);
+.nav-tabs li a {
+  color: #777;
 }
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(85, 85, 85, 0.4);
-    background-color: rgba(231, 231, 231, 0.4);
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
 }
-#custom-bootstrap-menu.navbar-default .navbar-toggle {
-
+.card{
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
 }
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #ddd;
+.card-title{
+  letter-spacing: 4px;
+  color: #000;
 }
-#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #888;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-     background-color: #0051ff;
+.card img{
+  width: 90%;
 }
