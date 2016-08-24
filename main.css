@@ -13,6 +13,7 @@ html,body{height:100%;}
 }
 .navbar li a, .navbar .navbar-brand {
   color: #d5d5d5 !important;
+  text-transform: uppercase;
 }
 .navbar-nav li a:hover {
   color: #fff !important;
@@ -24,8 +25,14 @@ html,body{height:100%;}
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
+
 .masthead-container{
     height: 100%;
+}
+@media only screen and (max-width: 500px) {
+    .masthead-container{
+    height:200px;
+  }
 }
 .masthead-content{
   background-image:url('images/masthead_med.png');
@@ -66,6 +73,8 @@ html,body{height:100%;}
 }
 #gallery .description p{
   font-size: 15px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 .nav-tabs li a {
   color: #777;
@@ -76,7 +85,6 @@ html,body{height:100%;}
     margin-top: 20px;
 }
 .card{
-  background-color: #fff;
   font-family: Montserrat, sans-serif;
 }
 .card-title{
